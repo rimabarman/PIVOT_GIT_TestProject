@@ -28,6 +28,16 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1073
+- serviceName: project.pivot_git_test.integrations:DAF_FileName
+  packages:
+  - name: PIVOT_GIT_TestProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: pub.string:toUpper
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1073
 - serviceName: project.pivot_git_test.streaming.connections:EmbeddedMessaging
   packages:
   - name: PIVOT_GIT_TestProject
