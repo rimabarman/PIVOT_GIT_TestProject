@@ -1,0 +1,10 @@
+version: "1.0"
+projectName: PIVOT_GIT_TestProject
+runtimes:
+- runtimeAlias: pivotERT1410
+  assets:
+  - name: Untitled Workflow
+    type: workflow
+    uid: fl4468530ad9fc4618bdb6834ed6010f1c
+    stepId: a0
+    reference: services:add3Ints
