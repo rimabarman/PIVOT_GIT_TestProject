@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">restResource</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">project.pivot_git_test.rad.depAPITest1_.resources:depAPITest1_resource</value>
+  <value name="node_pkg">PIVOT_GIT_TestProject</value>
+  <record name="node_hints" javaclass="com.wm.util.Values">
+    <value name="createdBy">Parmela.Dohling@ibm.com</value>
+    <value name="createdDate">2026-10-14T07:47:17.983603788Z</value>
+    <value name="modifiedBy">Parmela.Dohling@ibm.com</value>
+    <value name="lastModifiedDate">2026-10-14T07:47:17.983603788Z</value>
+  </record>
+  <value name="is_public">false</value>
+  <record name="restResource" javaclass="com.wm.util.Values">
+    <value name="resourceName">depAPITest1_resource</value>
+    <value name="nsName">project.pivot_git_test.rad.depAPITest1_.resources:depAPITest1_resource</value>
+    <array name="operations" type="record" depth="1">
+    </array>
+  </record>
+  <null name="originUri"/>
+  <value name="resourceName">depAPITest1_resource</value>
+  <Boolean name="modifiable">true</Boolean>
+  <null name="srcdoctypename"/>
+  <value name="assocdoctypename">project.pivot_git_test.rad.depAPITest1_.resources.depAPITest1_resource_.docTypes:depAPITest1_resource</value>
+  <Boolean name="isjsonapi">false</Boolean>
+  <array name="attributes" type="record" depth="1">
+  </array>
+</Values>
