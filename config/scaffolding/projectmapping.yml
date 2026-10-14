@@ -1,7 +1,7 @@
 version: "1.0"
 projectName: PIVOT_GIT_TestProject
 runtimes:
-- runtimeAlias: Cloud Designtime
+- runtimeAlias: pivotERT1410
   assets:
   - name: AddInt_Workflow
     type: workflow
