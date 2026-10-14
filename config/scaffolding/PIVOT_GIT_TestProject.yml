@@ -8,7 +8,29 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 - name: TPP_services_in_FCS
+  version: "1.0"
   gitServerName: Src_Ctrl_rimaGithub_shared
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: rimabarman
   gitBranch: main
+services:
+- serviceName: project.pivot_git_test.integrations:AddInt_Test
+  packages:
+  - name: PIVOT_GIT_TestProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: services:add3Ints
+  packages:
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1073
+- serviceName: project.pivot_git_test.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: PIVOT_GIT_TestProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
